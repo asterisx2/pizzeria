@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component renders without crashing 1`] = `
+<div
+  className="h-100 d-flex flex-column w-100"
+>
+  <div>
+    <h4
+      className="border-bottom-black text-left pb-2 mb-2"
+    >
+      Customize your pizza
+    </h4>
+  </div>
+  <div
+    className="flex-1 overflow-y-auto mb-2"
+  >
+    <div
+      className="accordion h-100 overflow-y-auto"
+      id="accordion"
+    >
+      <div
+        className="card show"
+      >
+        <div
+          aria-controls="collapseOne"
+          aria-expanded="true"
+          className="cursor-pointer card-header theme-primary-color text-left d-flex justify-content-between align-items-center"
+          data-target="#doughDiv"
+          data-toggle="collapse"
+          id="toppingDough"
+        >
+          <h5
+            className="mb-0 text-light"
+          >
+            Dough
+          </h5>
+          <i
+            aria-hidden="true"
+            className="fa fa-caret-down text-light"
+          />
+        </div>
+        <div
+          aria-labelledby="toppingDough"
+          className="collapse show"
+          data-parent="#accordion"
+          id="doughDiv"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="w-100"
+            >
+              <label
+                className="w-100"
+              >
+                <div
+                  className="d-flex justify-content-between"
+                >
+                  <div
+                    className="text-left"
+                  >
+                    <div
+                      className="d-flex"
+                    >
+                      <input
+                        className="mt-1"
+                        name="dough"
+                        onChange={[Function]}
+                        type="radio"
+                        value={1}
+                      />
+                      <div
+                        className="ml-2"
+                      >
+                        <span>
+                          Thin
+                        </span>
+                        <p
+                          className="font-weight-light font-italic"
+                        >
+                          Thin and cristy Pizza dough
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    className="color-orange"
+                  >
+                    €
+                    0.00
+                  </span>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div />
+      </div>
+      <div
+        className="card show"
+      >
+        <div
+          aria-controls="collapseOne"
+          aria-expanded="true"
+          className="cursor-pointer card-header theme-primary-color text-left d-flex justify-content-between align-items-center"
+          data-target="#toppingsDiv"
+          data-toggle="collapse"
+          id="toppingHeading"
+        >
+          <h5
+            className="mb-0 text-light"
+          >
+            Toppings
+          </h5>
+          <i
+            aria-hidden="true"
+            className="fa fa-caret-down text-light"
+          />
+        </div>
+        <div
+          aria-labelledby="toppingHeading"
+          className="collapse show"
+          data-parent="#accordion"
+          id="toppingsDiv"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="w-100"
+            >
+              <label
+                className="w-100"
+              >
+                <div
+                  className="d-flex justify-content-between"
+                >
+                  <div>
+                    <input
+                      className="mr-2"
+                      name="pepperoni"
+                      onChange={[Function]}
+                      type="checkbox"
+                      value="pepperoni"
+                    />
+                    pepperoni
+                  </div>
+                  <span
+                    className="color-orange"
+                  >
+                    €
+                    40.00
+                  </span>
+                </div>
+              </label>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex justify-content-between flex-row border-top-blue mt-2 pt-2"
+  >
+    <div
+      className="d-flex flex-column justify-content-between"
+    >
+      <img
+        alt=""
+        className="fluid-img d-block"
+        src="../../pizza.png"
+      />
+      <span>
+        Size: 
+        SMALL
+      </span>
+    </div>
+    <div
+      className="d-flex flex-column justify-content-between"
+    >
+      <span
+        className="d-block"
+      >
+        Grand Total
+      </span>
+      <span
+        className="text-primary"
+      >
+        €
+        199.00
+      </span>
+    </div>
+  </div>
+</div>
+`;

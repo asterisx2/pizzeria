@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartLink Component renders without crashing 1`] = `
+<div>
+  <a
+    className="text-light"
+    href="/cart"
+    onClick={[Function]}
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-shopping-cart pr-1"
+    />
+    (
+    0
+    )
+  </a>
+</div>
+`;

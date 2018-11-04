@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Component renders without crashing 1`] = `
+<div
+  className="d-flex flex-column"
+>
+  <div
+    className="d-flex justify-content-between align-content-center p-3 theme-primary-color text-light"
+  >
+    <div>
+      <a
+        className="text-light"
+        href="/"
+        onClick={[Function]}
+      >
+        <span
+          className="logo"
+        >
+          PZ
+        </span>
+        <span
+          className="pl-2 pr-2"
+        >
+          |
+        </span>
+        <span>
+          Pizzeria
+        </span>
+      </a>
+    </div>
+  </div>
+  <div
+    className="flex-1 p-3 d-flex justify-content-center align-items-center overflow-y-auto"
+  >
+    <section>
+      <div>
+        <i
+          aria-hidden="true"
+          className="fa fa-exclamation-circle shopping-cart-icon-large"
+        />
+        <h1
+          className="mt-2"
+        >
+          Your cart is empty
+        </h1>
+      </div>
+    </section>
+  </div>
+  <div
+    className="d-flex align-content-center p-3 theme-primary-color"
+  >
+    <div
+      className="d-flex justify-content-center col"
+    >
+      <a
+        className="text-light"
+        href="/"
+        onClick={[Function]}
+      >
+        <button
+          className="btn btn-success"
+          type="button"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-shopping-cart pr-2"
+          />
+          Add Some Pizzas
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

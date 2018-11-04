@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SizeMenu Component renders without crashing 1`] = `
+<section>
+  <div
+    className="d-flex flex-column"
+  >
+    <h4
+      className="border-bottom-black text-left pb-2 mb-2"
+    >
+      Select a size
+    </h4>
+    <div
+      className="border d-flex justify-content-between align-items-center mt-2 p-2 hover-dark selected"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        height="60px"
+        src="../../pizza_round.png"
+      />
+      <div
+        className="d-flex flex-column text-right"
+      >
+        <span
+          className="ml-2 text-secondary font-large pl-6 pr-2"
+        >
+          small
+        </span>
+        <span
+          className="text-primary font-italic font-weight-light"
+        >
+          Starting from €
+          1.00
+        </span>
+      </div>
+    </div>
+    <div
+      className="border d-flex justify-content-between align-items-center mt-2 p-2 hover-dark"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        height="70px"
+        src="../../pizza_round.png"
+      />
+      <div
+        className="d-flex flex-column text-right"
+      >
+        <span
+          className="ml-2 text-secondary font-large pl-6 pr-2"
+        >
+          medium
+        </span>
+        <span
+          className="text-primary font-italic font-weight-light"
+        >
+          Starting from €
+          1.50
+        </span>
+      </div>
+    </div>
+    <div
+      className="border d-flex justify-content-between align-items-center mt-2 p-2 hover-dark"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        height="80px"
+        src="../../pizza_round.png"
+      />
+      <div
+        className="d-flex flex-column text-right"
+      >
+        <span
+          className="ml-2 text-secondary font-large pl-6 pr-2"
+        >
+          large
+        </span>
+        <span
+          className="text-primary font-italic font-weight-light"
+        >
+          Starting from €
+          2.00
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+`;

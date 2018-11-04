@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(248,248,248) !important;
+    letter-spacing: 2px;
+    height: 100%;
+    text-align: center;
+ }
+.font-large {
+    font-size: 2.5em;
+}
+.pl-6 {
+    padding-left: 2em !important;
+}
+.theme-primary-color {
+    background: #2c3e50;
+}
+.flex-1 {
+    flex: 1;
+}
+.rootdiv > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.logo {
+    border: 2px solid white;
+    padding: 5px;
+}
+.border-bottom-black {
+    border-bottom: 2px solid black;
+}
+.hover-dark {
+    cursor: pointer;
+}
+.hover-dark:hover {
+    background: #dfe6e9;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.selected {
+    background: #b2bec3;
+}
+.overflow-y-auto {
+    overflow-y: auto;
+}
+.fluid-img {
+    height: 2em;
+}
+.fluid-img-large{
+    height: 6.0em;
+}
+.border-top-blue {
+    border-top: 2px solid #2c3e50;
+}
+a {
+    text-decoration: none !important;
+}
+.shopping-cart-icon-large {
+    font-size: 10em;
+}
+.fluid-image-large {
+    height: 3em;
+}
+.color-orange {
+    color: #e67e22;
+}
+.font-small {
+    font-size: 1.3em;
+}
+.font-medium {
+    font-size: 2.0em;
+}
+
+.fluid-width {
+    width: 50% !important;
+}
+
+@media (max-width: 768px) { 
+    .fluid-width {
+        width: 95% !important;
+    }
+    .font-small {
+        font-size: 0.7em;
+    }
+    .font-medium {
+        font-size: 1.2em;
+    }
+ }
